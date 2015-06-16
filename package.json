@@ -1,0 +1,16 @@
+{
+  "name": "koa-etag-session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Po-Ying Chen <poying.me@gmail.com> (陳柏穎)",
+  "license": "MIT",
+  "devDependencies": {
+    "koa": "^0.21.0",
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
+  }
+}
