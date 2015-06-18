@@ -33,7 +33,7 @@ describe('etagSession()', function () {
       });
       request(app.listen())
         .get('/')
-        .set('etag', 'a=b;c=d')
+        .set('If-None-Match', 'a=b;c=d')
         .expect(200)
         .end(cb);
     });
